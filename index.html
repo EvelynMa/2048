@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>2048</title>
+
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="title-line clear-fix">
+                <div class="name">2048</div>
+                <div class="score">
+                    <div class="score-label">SCORE</div>
+                    <div class="score-number">8000</div>
+                </div>
+                <div class="score">
+                    <div class="score-label">BEST</div>
+                    <div class="score-number">8000</div>
+                </div>
+            </div>
+
+            <div class="menu-line">
+                <div class="menu">MENU</div>
+                <div class="new" onclick="initializeGameData()">NEW</div>
+            </div>
+        </div>
+
+        <div id="content-table">
+        </div>
+
+        <footer>Copyright &copy; hui by 2017</footer>
+
+        <script src="main.js"></script>
+    </body>
+
+</html>
